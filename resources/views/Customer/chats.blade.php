@@ -1,0 +1,42 @@
+@extends('layouts.app')
+
+@section('content')
+    <div class="max-w-screen-xl mx-auto">
+        <div class="w-full h-[300px] pb-8 bg-yellow-100">
+            <div class="mt-[100px] absolute w-full h-max pb-8 bg-slate-50 rounded-tl-[100px] rounded-tr-[100px] shadow-xl">
+                <h1 class="pl-[75px] text-2xl font-semibold mt-[50px]">Chats</h1>
+                <hr class="border-black flex-grow ml-[50px] mr-[50px] mt-[20px]">
+                <div class="mt-[20px] container">
+                    <div class="columns-2 pb-[30px]">
+                        <img src="{{ asset('storage/images/PP1.png') }}" alt="Profile Pic 1" class="ml-[65px] rounded-full h-20 w-20 border-2">
+                        <div class="row ml-[-460px]">
+                            <p>Robert Hans</p>
+                            <p>Noted, thank you for order</p>
+                        </div>
+                    </div>
+                    <div class="columns-2 pb-[30px]">
+                        <img src="{{ asset('storage/images/PP2.png') }}" alt="Profile Pic 1" class="ml-[65px] rounded-full h-20 w-20 border-2">
+                        <div class="row ml-[-460px]">
+                            <p>Robert Hans</p>
+                            <p>Noted, thank you for order</p>
+                        </div>
+                    </div>
+                    <div class="columns-2 pb-[30px]">
+                        <img src="{{ asset('storage/images/PP3.png') }}" alt="Profile Pic 1" class="ml-[65px] rounded-full h-20 w-20 border-2">
+                        <div class="row ml-[-460px]">
+                            <p>Robert Hans</p>
+                            <p>Noted, thank you for order</p>
+                        </div>
+                    </div>
+                    <div class="columns-2 pb-[30px]">
+                        <img src="{{ asset('storage/images/PP4.png') }}" alt="Profile Pic 1" class="ml-[65px] rounded-full h-20 w-20 border-2">
+                        <div class="row ml-[-460px]">
+                            <p>Robert Hans</p>
+                            <p>Noted, thank you for order</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
