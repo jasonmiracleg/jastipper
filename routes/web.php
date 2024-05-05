@@ -29,3 +29,15 @@ Route::get('custAccount', function () {
 Route::get('jastiperHome', function () {
     return view('Jastiper.home');
 });
+
+Route::get('jastiperChats', function () {
+    return view('Jastiper.chats');
+});
+
+Route::get('jastiperHistory', function () {
+    return view('Jastiper.history');
+});
+
+Route::get('jastiperAccount', function () {
+    return view('Jastiper.account');
+});
