@@ -9,7 +9,7 @@
             <div class="w-full flex flex-col justify-between">
                 <div>
                     <div class="mb-8 flex flex-row w-auto">
-                        <img src="{{ asset('storage/images/aaFaceMist.png') }}"
+                        <img src="{{ asset('assets/aaFaceMist.png') }}"
                             alt="" class="h-86 w-64 object-cover rounded-2xl mr-8">
                         <div class="h-auto w-full">
                             <div class="space-y-2">
@@ -46,7 +46,7 @@
             <div class="w-full flex flex-col justify-between">
                 <div>
                     <div class="mb-8 flex flex-row w-auto">
-                        <img src="{{ asset('storage/images/sukinFaceWash.png') }}"
+                        <img src="{{ asset('assets/sukinFaceWash.png') }}"
                             alt="" class="h-86 w-64 object-cover rounded-2xl mr-8">
                         <div class="h-auto w-full">
                             <div class="space-y-2">
@@ -83,7 +83,7 @@
             <div class="w-full flex flex-col justify-between">
                 <div>
                     <div class="mb-8 flex flex-row w-auto">
-                        <img src="{{ asset('storage/images/lemonOil.png') }}"
+                        <img src="{{ asset('assets/lemonOil.png') }}"
                             alt="" class="h-86 w-64 object-cover rounded-2xl mr-8">
                         <div class="h-auto w-full">
                             <div class="space-y-2">

@@ -2,31 +2,31 @@
 
 @section('content')
     <div class="relative">
-        <div class="bg-[url('{{ asset('storage/images/background.png') }}')] h-72 bg-cover relative">
+        <div class="bg-[url('{{ asset('assets/background.png') }}')] h-72 bg-cover relative">
             <div class="absolute inset-0 bg-gray-100 opacity-50"></div>
         </div>
         <div class="ml-[10px] mr-[10px] max-w-screen-xl mx-auto p-4 absolute inset-0">
             <div>
                 <div class="space-y-4">
-                    <a href="/"><img src="{{ asset('storage/images/back.png') }}" class="absolute mt-[20px] w-[20px]"></a>
+                    <a href="/"><img src="{{ asset('assets/back.png') }}" class="absolute mt-[20px] w-[20px]"></a>
                     <p class="font-semibold text-[38px] ml-[45px]">Julie</p>
                     <div class="w-full flex flex-cols items-center gap-x-7">
                         <img class="w-6 ml-[40px]" src="{{ asset('assets/map.png') }}" alt="">
                         <p class="text-[18px] font-semibold">Jakarta - Indonesia</p>
                     </div>
                     <div class="w-full flex flex-cols items-center gap-x-7">
-                        <img class="w-8 ml-[36px]" src="{{ asset('storage/images/starBorder.png') }}" alt="">
+                        <img class="w-8 ml-[36px]" src="{{ asset('assets/starBorder.png') }}" alt="">
                         <p class="ml-[-5px] text-[18px] font-semibold">5/5</p>
                     </div>
-                    <a href="custChats"><img class="absolute w-[55px] ml-[1150px] mt-[30px]" src="{{ asset('storage/images/chatIcon.png') }}"></a>
+                    <a href="custChats"><img class="absolute w-[55px] ml-[1150px] mt-[30px]" src="{{ asset('assets/chatIcon.png') }}"></a>
                 </div>
                 <div class="mt-8 flex flex-cols">
-                    <img src="{{ asset('storage/images/ppCircle.png') }}"
+                    <img src="{{ asset('assets/ppCircle.png') }}"
                         alt="Your Image" class="rounded-full w-48 border-2 mr-8">
                     <div class="absolute ml-[240px] mt-[150px] flex items-end pb-6">
-                        <button type="button" class="h-[30px] w-[100px] absolute text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img src="{{ asset('storage/images/searchIcon.png') }}" class="absolute w-[30px] ml-[-15px] mt-[-15px]"><a class="absolute ml-[-10px] mt-[-12px] text-[14px]">Search</a></button>
-                        <button type="button" class="h-[30px] w-[100px] absolute ml-[110px] text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img src="{{ asset('storage/images/filterIcon.png') }}" class="absolute w-[20px] ml-[-10px] mt-[-10px]"><a class="absolute ml-[-5px] mt-[-12px] text-[14px]">Filter</a></button>
-                        <button type="button" class="h-[30px] w-[110px] absolute ml-[220px] text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img src="{{ asset('storage/images/tag.png') }}" class="absolute w-[20px] ml-[-10px] mt-[-10px]"><a class="absolute ml-[-15px] mt-[-12px] text-[14px]">Discount</a></button>
+                        <button type="button" class="h-[30px] w-[100px] absolute text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img src="{{ asset('assets/searchIcon.png') }}" class="absolute w-[30px] ml-[-15px] mt-[-15px]"><a class="absolute ml-[-10px] mt-[-12px] text-[14px]">Search</a></button>
+                        <button type="button" class="h-[30px] w-[100px] absolute ml-[110px] text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img src="{{ asset('assets/filterIcon.png') }}" class="absolute w-[20px] ml-[-10px] mt-[-10px]"><a class="absolute ml-[-5px] mt-[-12px] text-[14px]">Filter</a></button>
+                        <button type="button" class="h-[30px] w-[110px] absolute ml-[220px] text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img src="{{ asset('assets/tag.png') }}" class="absolute w-[20px] ml-[-10px] mt-[-10px]"><a class="absolute ml-[-15px] mt-[-12px] text-[14px]">Discount</a></button>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                 <div class="flex flex-wrap ml-[30px]">
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('storage/images/aaFaceMist.png') }}"
+                            <img src="{{ asset('assets/aaFaceMist.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
                         </div>
                         <div class="flow-root space-y-4">
@@ -48,7 +48,7 @@
                     </div>
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('storage/images/sukinFaceWash.png') }}"
+                            <img src="{{ asset('assets/sukinFaceWash.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
                         </div>
                         <div class="flow-root space-y-4">
@@ -62,7 +62,7 @@
                     </div>
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('storage/images/beautyFood.png') }}"
+                            <img src="{{ asset('assets/beautyFood.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
                         </div>
                         <div class="flow-root space-y-4">
@@ -76,7 +76,7 @@
                     </div>
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('storage/images/jrink.png') }}"
+                            <img src="{{ asset('assets/jrink.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
                         </div>
                         <div class="flow-root space-y-4">
@@ -90,7 +90,7 @@
                     </div>
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('storage/images/salmonOil.png') }}"
+                            <img src="{{ asset('assets/salmonOil.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
                         </div>
                         <div class="flow-root space-y-4">
@@ -104,7 +104,7 @@
                     </div>
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('storage/images/waterBase.png') }}"
+                            <img src="{{ asset('assets/waterBase.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
                         </div>
                         <div class="flow-root space-y-4">
@@ -118,7 +118,7 @@
                     </div>
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('storage/images/salmonOil.png') }}"
+                            <img src="{{ asset('assets/salmonOil.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
                         </div>
                         <div class="flow-root space-y-4">
@@ -132,7 +132,7 @@
                     </div>
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('storage/images/1Set.png') }}"
+                            <img src="{{ asset('assets/1Set.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
                         </div>
                         <div class="flow-root space-y-4">

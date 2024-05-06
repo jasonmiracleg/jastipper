@@ -11,23 +11,23 @@
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                    <img src="{{ asset('storage/images/discount1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('storage/images/discount2.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount2.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('storage/images/discount3.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount3.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 4 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('storage/images/discount1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 5 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('storage/images/discount2.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount2.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
             </div>
             <!-- Slider indicators -->
@@ -63,23 +63,23 @@
             <hr class="border-black flex-grow">
         </div>
         <div class="flex flex-row mt-2 justify-between w-full">
-            <img src="{{ asset('storage/images/UK.png') }}"
+            <img src="{{ asset('assets/UK.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('storage/images/USA.png') }}"
+            <img src="{{ asset('assets/USA.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('storage/images/Canada.png') }}"
+            <img src="{{ asset('assets/Canada.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('storage/images/China.png') }}"
+            <img src="{{ asset('assets/China.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('storage/images/Korea.png') }}"
+            <img src="{{ asset('assets/Korea.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('storage/images/Japan.png') }}"
+            <img src="{{ asset('assets/Japan.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('storage/images/Thailand.png') }}"
+            <img src="{{ asset('assets/Thailand.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('storage/images/Australia.png') }}"
+            <img src="{{ asset('assets/Australia.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('storage/images/Indonesia.png') }}"
+            <img src="{{ asset('assets/Indonesia.png') }}"
                 alt="Your Image" class="rounded-full h-20 w-20 border-2">
         </div>
     </div>
@@ -95,7 +95,7 @@
                     <div class="w-[350px] max-w-sm p-4 bg-white rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('storage/images/PP1.png') }}"
+                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/PP1.png') }}"
                                     alt="">
                             </div>
                             <div class="flex-1 min-w-0 ms-4">
@@ -117,7 +117,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/globe.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -127,7 +127,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/cube.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -142,7 +142,7 @@
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('storage/images/ProfilePicAccount.png') }}"
+                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/ProfilePicAccount.png') }}"
                                     alt="">
                             </div>
                             <div class="flex-1 min-w-0 ms-4">
@@ -164,7 +164,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/globe.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -174,7 +174,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/cube.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -189,7 +189,7 @@
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('storage/images/PP2.png') }}"
+                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/PP2.png') }}"
                                     alt="">
                             </div>
                             <div class="flex-1 min-w-0 ms-4">
@@ -211,7 +211,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/globe.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -221,7 +221,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/cube.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -244,7 +244,7 @@
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('storage/images/Janice.png') }}"
+                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/Janice.png') }}"
                                     alt="">
                             </div>
                             <div class="flex-1 min-w-0 ms-4">
@@ -266,7 +266,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/globe.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -276,7 +276,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/cube.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -291,7 +291,7 @@
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('storage/images/Betty.png') }}"
+                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/Betty.png') }}"
                                     alt="">
                             </div>
                             <div class="flex-1 min-w-0 ms-4">
@@ -313,7 +313,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/globe.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -323,7 +323,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/cube.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -338,7 +338,7 @@
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('storage/images/Carles.png') }}"
+                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/Carles.png') }}"
                                     alt="">
                             </div>
                             <div class="flex-1 min-w-0 ms-4">
@@ -360,7 +360,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/globe.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
                                     alt="">
                                 </div>
                                 <div>
@@ -370,7 +370,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('storage/images/cube.png') }}"
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
                                     alt="">
                                 </div>
                                 <div>

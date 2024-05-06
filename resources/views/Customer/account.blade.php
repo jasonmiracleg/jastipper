@@ -3,12 +3,12 @@
 @section('content')
     <div class="max-w-screen-xl mx-auto">
         <div class="columns-2 pb-[30px]">
-            <img src="{{ asset('storage/images/ProfilePicAccount.png') }}" alt="Profile Pic 1" class="mt-[50px] pt-[50px] pl-[50px] ml-[65px] h-[300px] rounded-md">
+            <img src="{{ asset('assets/ProfilePicAccount.png') }}" alt="Profile Pic 1" class="mt-[50px] pt-[50px] pl-[50px] ml-[65px] h-[300px] rounded-md">
             <div class="pt-[130px] row ml-[-260px]">
                 <p class="text-[26px] pb-[10px]">Name : Julie</p>
                 <p class="text-[26px] pb-[10px]">City : Jakarta/ Indonesia</p>
                 <p class="text-[26px] pb-[10px]">Ranking : 1/1000+</p>
-                <p class="text-[26px] pb-[10px]">Rating : <img src="{{ asset('storage/images/star.png') }}" class="z-[2] mt-[-25px] ml-[100px] w-[18px]"><img src="{{ asset('storage/images/star.png') }}" class="mt-[-18px] ml-[122px] w-[18px]"><img src="{{ asset('storage/images/star.png') }}" class="z-[2] mt-[-18px] ml-[144px] w-[18px]"><img src="{{ asset('storage/images/star.png') }}" class="z-[2] mt-[-18px] ml-[166px] w-[18px]"><img src="{{ asset('storage/images/star.png') }}" class="z-[2] mt-[-18px] ml-[188px] w-[18px]"></p>
+                <p class="text-[26px] pb-[10px]">Rating : <img src="{{ asset('assets/star.png') }}" class="z-[2] mt-[-25px] ml-[100px] w-[18px]"><img src="{{ asset('assets/star.png') }}" class="mt-[-18px] ml-[122px] w-[18px]"><img src="{{ asset('assets/star.png') }}" class="z-[2] mt-[-18px] ml-[144px] w-[18px]"><img src="{{ asset('assets/star.png') }}" class="z-[2] mt-[-18px] ml-[166px] w-[18px]"><img src="{{ asset('assets/star.png') }}" class="z-[2] mt-[-18px] ml-[188px] w-[18px]"></p>
             </div>
         </div>
         <div>
