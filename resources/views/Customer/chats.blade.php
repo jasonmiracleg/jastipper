@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="max-w-screen-xl mx-auto">
+    <div class="mx-auto">
         <div class="w-full h-[300px] pb-8 bg-yellow-100">
             <div class="mt-[70px] absolute w-full h-max pb-8 bg-slate-50 rounded-tl-[100px] rounded-tr-[100px] shadow-xl">
                 <h1 class="pl-[75px] text-2xl font-semibold mt-[50px]">Chats</h1>

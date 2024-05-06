@@ -5,9 +5,9 @@
         <div class="bg-[url('{{ asset('assets/background.png') }}')] h-72 bg-cover relative">
             <div class="absolute inset-0 bg-gray-100 opacity-50"></div>
         </div>
-        <div class="ml-[10px] mr-[10px] max-w-screen-xl mx-auto p-4 absolute inset-0">
+        <div class="ml-[10px] mr-[10px] mx-auto p-4 absolute inset-0">
             <div>
-                <div class="space-y-4">
+                <div class="space-y-4 ps-4">
                     <a href="/"><img src="{{ asset('assets/back.png') }}" class="absolute mt-[20px] w-[20px]"></a>
                     <p class="font-semibold text-[38px] ml-[45px]">Julie</p>
                     <div class="w-full flex flex-cols items-center gap-x-7">
@@ -18,9 +18,11 @@
                         <img class="w-8 ml-[36px]" src="{{ asset('assets/starBorder.png') }}" alt="">
                         <p class="ml-[-5px] text-[18px] font-semibold">5/5</p>
                     </div>
-                    <a href="custChats"><img class="absolute w-[55px] ml-[1150px] mt-[30px]" src="{{ asset('assets/chatIcon.png') }}"></a>
+                    <div class="absolute flex justify-end right-0 pr-32">
+                        <a href="custChats"><img class="w-[55px] mt-[30px]" src="{{ asset('assets/chatIcon.png') }}"></a>
+                    </div>
                 </div>
-                <div class="mt-8 flex flex-cols">
+                <div class="mt-8 flex flex-cols ps-8">
                     <img src="{{ asset('assets/ppCircle.png') }}"
                         alt="Your Image" class="rounded-full w-48 border-2 mr-8">
                     <div class="absolute ml-[240px] mt-[150px] flex items-end pb-6">
@@ -30,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-8 pb-8 ml-[10px] mr-[10px]">
+            <div class="mt-8 pb-8 ml-[10px]">
                 <div class="flex flex-wrap ml-[30px]">
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">

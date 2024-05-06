@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="ml-[30px] mr-[30px] max-w-screen-xl mx-auto p-4">
+    <div class="ml-[30px] mr-[30px] p-4">
         <div>
             <h1 class="text-3xl font-semibold mt-[35px]">Good Morning, Josh</h1>
         </div>
@@ -84,8 +84,8 @@
         </div>
     </div>
     <br>
-    <div class="w-full pb-8 bg-yellow-100 rounded-tl-[120px] rounded-tr-[120px] shadow">
-        <div class="max-w-screen-xl mx-auto p-4">
+    <div class="pb-8 bg-yellow-100 rounded-tl-[120px] rounded-tr-[100px] shadow">
+        <div class="mx-auto p-4">
             <div class="flex items-center mt-8 ml-[50px]">
                 <h1 class="text-3xl font-semibold mr-4">Based on Desired Location</h1>
                 <hr class="border-black flex-grow mr-[40px]">
@@ -234,7 +234,7 @@
                 </a>
             </div>
         </div>
-        <div class="max-w-screen-xl mx-auto p-4">
+        <div class="mx-auto p-4">
             <div class="flex items-center mt-8">
                 <h1 class="text-3xl font-semibold mr-4 ml-[50px]">Popular</h1>
                 <hr class="border-black flex-grow  mr-[40px]">
