@@ -38,6 +38,7 @@
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/aaFaceMist.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
+                            <img src="{{ asset('assets/addToCart.png') }}" class="absolute w-[30px] ml-[200px] mt-[230px]">
                         </div>
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
@@ -52,6 +53,7 @@
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/sukinFaceWash.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
+                            <img src="{{ asset('assets/addToCart.png') }}" class="absolute w-[30px] ml-[200px] mt-[230px]">
                         </div>
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
@@ -66,6 +68,7 @@
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/beautyFood.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
+                            <img src="{{ asset('assets/addToCart.png') }}" class="absolute w-[30px] ml-[200px] mt-[230px]">
                         </div>
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
@@ -80,6 +83,7 @@
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/jrink.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
+                            <img src="{{ asset('assets/addToCart.png') }}" class="absolute w-[30px] ml-[200px] mt-[230px]">
                         </div>
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
@@ -94,6 +98,7 @@
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/salmonOil.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
+                            <img src="{{ asset('assets/addToCart.png') }}" class="absolute w-[30px] ml-[200px] mt-[230px]">
                         </div>
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
@@ -108,6 +113,7 @@
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/waterBase.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
+                            <img src="{{ asset('assets/addToCart.png') }}" class="absolute w-[30px] ml-[200px] mt-[230px]">
                         </div>
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
@@ -122,6 +128,7 @@
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/salmonOil.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
+                            <img src="{{ asset('assets/addToCart.png') }}" class="absolute w-[30px] ml-[200px] mt-[230px]">
                         </div>
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
@@ -136,6 +143,7 @@
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/1Set.png') }}"
                                 alt="" class="h-[290px] object-cover rounded-2xl mr-8">
+                            <img src="{{ asset('assets/addToCart.png') }}" class="absolute w-[30px] ml-[200px] mt-[230px]">
                         </div>
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
