@@ -16,8 +16,8 @@ return new class extends Migration
             $table->timestamps();
             $table->unsignedBigInteger('product_id')->index();
             $table->foreign('product_id')->on('products')->references('id')->onUpdate('cascade');
-            $table->unsignedBigInteger('user_id')->index();
-            $table->foreign('user_id')->on('users')->references('id')->onUpdate('cascade');
+            $table->unsignedBigInteger('jastiper_id')->index();
+            $table->foreign('jastiper_id')->on('users')->references('id')->onUpdate('cascade');
         });
     }
 
