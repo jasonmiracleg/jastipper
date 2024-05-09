@@ -46,6 +46,10 @@ Route::get('jastiperAccount', function () {
     return view('Jastiper.account');
 });
 
+Route::get('jastiperAddProduct', function () {
+    return view('Jastiper.addProduct');
+});
+
 Route::get('jastiperRoute', function() {
     return view('Jastiper.route');
 });
