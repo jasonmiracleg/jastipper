@@ -45,3 +45,7 @@ Route::get('jastiperHistory', function () {
 Route::get('jastiperAccount', function () {
     return view('Jastiper.account');
 });
+
+Route::get('jastiperRoute', function() {
+    return view('Jastiper.route');
+});
