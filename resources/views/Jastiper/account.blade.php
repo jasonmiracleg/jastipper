@@ -12,7 +12,7 @@
             </div>
         </div>
         <h1 class="pl-[120px] text-3xl font-medium mt-[50px]">Your Post</h1>
-        <img src="{{ asset('assets/addProduct.png') }}" class="absolute w-[30px] ml-[270px] mt-[-30px]">
+        <a href="jastiperAddProduct" class="absolute ml-[270px] mt-[-30px]"><img src="{{ asset('assets/addProduct.png') }}" class="w-[30px]"></a>
         <hr class="border-black flex-grow ml-[120px] mr-[90px] mt-[20px]">
         <div class="mt-8 pb-8 ml-[30px] mr-[10px]">
             <div class="flex flex-wrap ml-[90px]">
@@ -21,7 +21,7 @@
                         <img src="{{ asset('assets/viewIcon.png') }}" class="absolute w-[16px] mb-[200px] ml-[15px]">
                         <img src="{{ asset('assets/aaFaceMist.png') }}"
                             alt="" class="h-[250px] object-cover rounded-2xl mr-8">
-                        <img src="{{ asset('assets/editProduct.png') }}" class="absolute w-[30px] ml-[165px] mt-[195px]">
+                        <a href="jastiperAddProduct" class="absolute ml-[165px] mt-[195px]"><img src="{{ asset('assets/editProduct.png') }}" class="w-[30px]"></a>
                     </div>
                     <p class="absolute mt-[-253px] ml-[42px] text-[14px] font-medium">1.230</p>
                     <div class="flow-root space-y-4">
@@ -38,7 +38,7 @@
                         <img src="{{ asset('assets/viewIcon.png') }}" class="absolute w-[16px] mb-[200px] ml-[15px]">
                         <img src="{{ asset('assets/sukinFaceWash.png') }}"
                             alt="" class="h-[250px] object-cover rounded-2xl mr-8">
-                        <img src="{{ asset('assets/editProduct.png') }}" class="absolute w-[30px] ml-[165px] mt-[195px]">
+                        <a href="jastiperAddProduct" class="absolute ml-[165px] mt-[195px]"><img src="{{ asset('assets/editProduct.png') }}" class="w-[30px]"></a>
                     </div>
                     <p class="absolute mt-[-253px] ml-[42px] text-[14px] font-medium">204</p>
                     <div class="flow-root space-y-4">
@@ -55,7 +55,7 @@
                         <img src="{{ asset('assets/viewIcon.png') }}" class="absolute w-[16px] mb-[200px] ml-[15px]">
                         <img src="{{ asset('assets/beautyFood.png') }}"
                             alt="" class="h-[250px] object-cover rounded-2xl mr-8">
-                        <img src="{{ asset('assets/editProduct.png') }}" class="absolute w-[30px] ml-[165px] mt-[195px]">
+                        <a href="jastiperAddProduct" class="absolute ml-[165px] mt-[195px]"><img src="{{ asset('assets/editProduct.png') }}" class="w-[30px]"></a>
                     </div>
                     <p class="absolute mt-[-253px] ml-[42px] text-[14px] font-medium">826</p>
                     <div class="flow-root space-y-4">
@@ -72,7 +72,7 @@
                         <img src="{{ asset('assets/viewIcon.png') }}" class="absolute w-[16px] mb-[200px] ml-[15px]">
                         <img src="{{ asset('assets/jrink.png') }}"
                             alt="" class="h-[250px] object-cover rounded-2xl mr-8">
-                        <img src="{{ asset('assets/editProduct.png') }}" class="absolute w-[30px] ml-[165px] mt-[195px]">
+                        <a href="jastiperAddProduct" class="absolute ml-[165px] mt-[195px]"><img src="{{ asset('assets/editProduct.png') }}" class="w-[30px]"></a>
                     </div>
                     <p class="absolute mt-[-253px] ml-[42px] text-[14px] font-medium">92</p>
                     <div class="flow-root space-y-4">
