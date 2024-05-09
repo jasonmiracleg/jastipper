@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-8 pb-8 ml-[10px] mr-[10px]">
+            <div class="grid-rows-2 mt-8 pb-8 ml-[10px] mr-[10px]">
                 <div class="flex flex-wrap ml-[30px]">
                     <div class="w-1/4 mb-8">
                         <div class="flex items-center justify-between mb-4">
