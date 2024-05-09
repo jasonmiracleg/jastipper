@@ -26,8 +26,8 @@
         <h1 class="pl-[75px] text-2xl font-semibold mt-[500px]">Completed Orders</h1>
         <hr class="border-black flex-grow ml-[50px] mr-[50px] mt-[20px]">
 
-        <button type="button" class="h-[30px] w-[100px] absolute ml-[70px] mt-[30px] text-white bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img src="{{ asset('assets/searchIcon.png') }}" class="absolute w-[30px] ml-[-15px] mt-[-15px]"><a class="absolute ml-[-10px] mt-[-12px] text-[14px]">Search</a></button>
-        <button type="button" class="h-[30px] w-[100px] absolute ml-[180px] mt-[30px] text-white bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img src="{{ asset('assets/filterIcon.png') }}" class="absolute w-[20px] ml-[-10px] mt-[-10px]"><a class="absolute ml-[-5px] mt-[-12px] text-[14px]">Filter</a></button>
+        <button type="button" class="h-[30px] w-[100px] absolute ml-[70px] mt-[30px] text-white bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2"><img src="{{ asset('assets/searchIcon.png') }}" class="absolute w-[30px] ml-[-15px] mt-[-15px]"><a class="absolute ml-[-10px] mt-[-12px] text-[14px]">Search</a></button>
+        <button type="button" class="h-[30px] w-[100px] absolute ml-[180px] mt-[30px] text-white bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2"><img src="{{ asset('assets/filterIcon.png') }}" class="absolute w-[20px] ml-[-10px] mt-[-10px]"><a class="absolute ml-[-5px] mt-[-12px] text-[14px]">Filter</a></button>
 
         <div class="ml-[60px] mt-[100px] absolute w-[250px] h-[290px] pb-8 bg-gray-100 rounded-[18px] shadow-l">
             <img src="{{ asset('assets/order1.png') }}">

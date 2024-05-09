@@ -4,7 +4,8 @@
     <div>
         <div class="ml-[10px] mr-[10px] max-w-screen-xl mx-auto p-4">
             <div class="mb-8">
-                <h1 class="text-3xl font-semibold">Items</h1>
+                <a href="jastiperInfo"><img src="{{ asset('assets/back.png') }}" class="absolute mt-[10px] w-[20px]"></a>
+                <h1 class="ml-[30px] text-3xl font-semibold">Items</h1>
             </div>
             <div class="w-full flex flex-col justify-between">
                 <div>
@@ -134,7 +135,7 @@
                     <p class="text-2xl font-bold">Total Cost</p>
                     <p class="text-2xl font-bold">Rp 464.900</p>
                 </div>
-                <button type="button" class="absolute ml-[1090px] mt-[10px] text-white bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><a href="#" class="text-[20px]">Checkout</a></button>
+                <button type="button" class="absolute ml-[1090px] mt-[10px] text-white bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><a href="custCheckout" class="text-[20px]">Checkout</a></button>
                 <br></br>
             </div>
         </div>
