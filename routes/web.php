@@ -14,6 +14,10 @@ Route::get('custCart', function () {
     return view('Customer.cart');
 });
 
+Route::get('custCheckout', function () {
+    return view('Customer.checkout');
+});
+
 Route::get('custChats', function () {
     return view('Customer.chats');
 });
@@ -40,4 +44,12 @@ Route::get('jastiperHistory', function () {
 
 Route::get('jastiperAccount', function () {
     return view('Jastiper.account');
+});
+
+Route::get('jastiperAddProduct', function () {
+    return view('Jastiper.addProduct');
+});
+
+Route::get('jastiperRoute', function() {
+    return view('Jastiper.route');
 });
