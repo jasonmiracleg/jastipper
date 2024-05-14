@@ -14,7 +14,7 @@ class JastiperProduct extends Model
     public function jastiper(): BelongsTo {
         return $this->belongsTo(User::class, 'jastiper_id', 'id');
     }
-    public function jastip(): BelongsTo {
+    public function jastips(): BelongsTo {
         return $this->belongsTo(Product::class, 'product_id', 'id');
     }
 

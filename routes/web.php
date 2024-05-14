@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\JastiperProductController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -30,25 +32,25 @@ Route::get('custAccount', function () {
     return view('Customer.account');
 });
 
-Route::get('jastiperHome', function () {
+Route::get('/jastiperHome', function () {
     return view('Jastiper.home');
 });
 
-Route::get('jastiperChats', function () {
+Route::get('/jastiperChats', function () {
     return view('Jastiper.chats');
 });
 
-Route::get('jastiperHistory', function () {
+Route::get('/jastiperHistory', function () {
     return view('Jastiper.history');
 });
 
-Route::get('jastiperAccount', function () {
+Route::get('/jastiperAccount', function () {
     return view('Jastiper.account');
 });
 
-Route::get('jastiperAddProduct', function () {
-    return view('Jastiper.addProduct');
-});
+Route::get('/jastiperAddProduct/{user_id}', [JastiperProductController::class, 'create'])->name('Jastiper.create');
+Route::post('/store', [JastiperProductController::class, 'store'])->name('Jastiper.store');
+Route::get('/jastiperAccount', [UserController::class, 'jastip_index'])->name('Jastiper.account');
 
 Route::get('jastiperRoute', function() {
     return view('Jastiper.route');
