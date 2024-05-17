@@ -51,7 +51,8 @@ Route::get('/jastiperAddProduct/{user_id}', [JastiperProductController::class, '
 Route::post('/store', [JastiperProductController::class, 'store'])->name('Jastiper.store');
 Route::get('/jastiperAccount', [UserController::class, 'jastip_index'])->name('Jastiper.account');
 
-Route::post('/custCart', [OrderDetailController::class, 'cart'])->name('customer.cart');
+Route::get('/cart', [OrderDetailController::class, 'cart'])->name('customer.navcart');
+Route::post('/custCart', [OrderDetailController::class, 'addCart'])->name('customer.cart');
 Route::get('jastiperRoute', function() {
     return view('Jastiper.route');
 });

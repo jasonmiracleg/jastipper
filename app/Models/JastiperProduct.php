@@ -14,11 +14,11 @@ class JastiperProduct extends Model
     public function jastiper(): BelongsTo {
         return $this->belongsTo(User::class, 'jastiper_id', 'id');
     }
-    public function jastips(): BelongsTo {
+    public function product(): BelongsTo {
         return $this->belongsTo(Product::class, 'product_id', 'id');
     }
 
-    public function orderDetail(): HasMany {
-        return $this->hasMany(OrderDetail::class, 'jastip_product_id', 'id');
+    public function jastip_product(): HasMany {
+        return $this->hasMany(OrderDetail::class, 'jastiper_product_id', 'id');
     }
 }

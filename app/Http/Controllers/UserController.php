@@ -16,7 +16,7 @@ class UserController extends Controller
 
         // Access the jastips relationship on each JastiperProduct instance
         $jastips = $products->map(function ($product) {
-            return $product->jastips;
+            return $product->product;
         });
         return view('Jastiper.account', compact('jastips','user'));
     }
@@ -25,7 +25,7 @@ class UserController extends Controller
         $jastip = User::where('id', 2)->first();
         $products = JastiperProduct::where('jastiper_id', 2)->get();
         $jastips = $products->map(function ($product) {
-            return $product->jastips;
+            return $product->product;
         });
         return view('Customer.jastipper_info', compact('jastip','jastips'));
     }

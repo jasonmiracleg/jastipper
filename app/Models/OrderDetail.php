@@ -10,9 +10,9 @@ class OrderDetail extends Model
 {
     use HasFactory;
     protected $guarded = ['id'];
-    public function orderDetail(): BelongsTo
+    public function jastip_product(): BelongsTo
     {
-        return $this->belongsTo(JastiperProduct::class, 'jastip_product_id', 'id');
+        return $this->belongsTo(JastiperProduct::class, 'jastiper_product_id', 'id');
     }
     public function billed(): BelongsTo
     {

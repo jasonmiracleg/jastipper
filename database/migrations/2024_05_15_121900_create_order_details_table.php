@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('order_details', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->unsignedBigInteger('product_id')->index();
-            $table->foreign('product_id')->on('jastiper_products')->references('id')->onUpdate('cascade');
+            $table->unsignedBigInteger('jastiper_product_id')->index();
+            $table->foreign('jastiper_product_id')->on('jastiper_products')->references('id')->onUpdate('cascade');
             $table->unsignedBigInteger('order_id')->index();
             $table->foreign('order_id')->on('orders')->references('id')->onUpdate('cascade');
             $table->unsignedBigInteger('invoice_id')->index()->nullable();
