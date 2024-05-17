@@ -106,7 +106,7 @@
                 <hr class="border-black flex-grow mr-[40px]">
             </div>
             <div class="mt-8 flex flex-cols justify-between ml-[40px] mr-[40px]">
-                <a href="jastiperInfo">
+                <a href="{{ route('jastiper.info') }}">
                     <div class="w-[350px] max-w-sm p-4 bg-white rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="jastiperInfo">
+                <a href="{{ route('jastiper.info') }}">
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
@@ -200,7 +200,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="jastiperInfo">
+                <a href="{{ route('jastiper.info') }}">
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
@@ -255,7 +255,7 @@
                 <hr class="border-black flex-grow  mr-[40px]">
             </div>
             <div class="mt-8 flex flex-cols justify-between ml-[40px] mr-[40px]">
-                <a href="jastiperInfo">
+                <a href="{{ route('jastiper.info') }}">
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
@@ -302,7 +302,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="jastiperInfo">
+                <a href="{{ route('jastiper.info') }}">
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
@@ -349,7 +349,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="jastiperInfo">
+                <a href="{{ route('jastiper.info') }}">
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">

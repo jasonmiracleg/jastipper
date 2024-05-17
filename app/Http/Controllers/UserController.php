@@ -20,4 +20,13 @@ class UserController extends Controller
         });
         return view('Jastiper.account', compact('jastips','user'));
     }
+
+    public function jastip_show(){
+        $jastip = User::where('id', 2)->first();
+        $products = JastiperProduct::where('jastiper_id', 2)->get();
+        $jastips = $products->map(function ($product) {
+            return $product->jastips;
+        });
+        return view('Customer.jastipper_info', compact('jastip','jastips'));
+    }
 }

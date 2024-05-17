@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->unsignedBigInteger('product_id')->index();
-            $table->foreign('product_id')->on('products')->references('id')->onUpdate('cascade');
+            $table->foreign('product_id')->on('jastiper_products')->references('id')->onUpdate('cascade');
             $table->unsignedBigInteger('order_id')->index();
             $table->foreign('order_id')->on('orders')->references('id')->onUpdate('cascade');
-            $table->unsignedBigInteger('invoice_id')->index();
+            $table->unsignedBigInteger('invoice_id')->index()->nullable();
             $table->foreign('invoice_id')->on('invoices')->references('id')->onUpdate('cascade');
             $table->integer('total_price_on_purchase');
             $table->integer('unit_price_on_purchase');

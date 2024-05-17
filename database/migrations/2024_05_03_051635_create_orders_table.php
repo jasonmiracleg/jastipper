@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
+            $table->timestamps();
             $table->dateTime('order_time');
+            $table->enum('is_checked_out',['0','1'])->default('0');
             $table->unsignedBigInteger('user_id')->index();
             $table->foreign('user_id')->on('users')->references('id')->onUpdate('cascade');
         });
