@@ -56,3 +56,5 @@ Route::post('/custCart', [OrderDetailController::class, 'addCart'])->name('custo
 Route::get('jastiperRoute', function() {
     return view('Jastiper.route');
 });
+
+Route::post('custCheckout', [OrderDetailController::class, 'checkout'])->name('checkout');

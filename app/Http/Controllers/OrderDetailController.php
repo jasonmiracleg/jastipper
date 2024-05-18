@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Invoice;
 use App\Models\Order;
 use App\Models\Product;
 use App\Models\OrderDetail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class OrderDetailController extends Controller
 {
@@ -34,7 +36,7 @@ class OrderDetailController extends Controller
         $orderDetail->quantity = 1;
         $orderDetail->save();
 
-        return redirect()->route('customer.navcart'); 
+        return redirect()->route('customer.navcart');
     }
 
     public function cart()
@@ -52,8 +54,7 @@ class OrderDetailController extends Controller
             $products = $orderDetails->map(function ($orderDetails) {
                 return $orderDetails->jastip_product;
             });
-
-            return view('Customer.cart', compact('products'));
+            return view('Customer.cart', compact('products', 'orderDetails'));
         }
 
         // If there are no unchecked out orders, handle this case accordingly
@@ -63,7 +64,42 @@ class OrderDetailController extends Controller
     }
 
 
-    public function checkout()
+    public function checkout(Request $request)
     {
+
+        // Validate the request if needed
+        $validated = $request->validate([
+            'products.*.id' => 'required|integer|exists:jastiper_products,id',
+            'products.*.quantity' => 'required|integer|min:1',
+            'products.*.total_price' => 'required|integer|min:0',
+        ]);
+
+        $invoice_id = Invoice::create([
+            'total_price' => 0,
+            'is_paid' => '1'
+        ]);
+        $totalPrice = 0;
+        // Loop through each product in the request
+        foreach ($request->input('products') as $productData) {
+            $orderDetail = OrderDetail::where('order_id', $request->input('order_id'))
+                ->where('jastiper_product_id', $productData['id'])
+                ->first();
+            $orderDetail->update([
+                'quantity' => $productData['quantity'],
+                'total_price_on_purchase' => $productData['total_price'],
+                'invoice_id' => $invoice_id->id
+            ]);
+            $totalPrice += $productData['total_price'];
+        }
+
+        Order::where('id', $request->input('order_id'))->update([
+            'is_checked_out' => '1'
+        ]);
+
+        // Commit the transaction if all operations succeed
+        DB::commit();
+
+        // Redirect to a success page
+        return redirect()->route('checkout');
     }
 }

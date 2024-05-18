@@ -60,7 +60,7 @@
                                     <div class="flex items-center">
                                         <div class="space-y-2">
                                             <p class="font-medium text-2xl">{{ $product->product_name }}</p>
-                                            <p class="text-xl">Rp {{ $product->price }}</p>
+                                            <p class="text-xl">Rp {{ number_format($product->price, 0, ',', '.') }},-</p>
                                         </div>
                                     </div>
                                 </div>

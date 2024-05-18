@@ -28,7 +28,7 @@ class JastiperProductController extends Controller
         $product = Product::create([
             'product_name' => $validatedData['productName'],
             'price' => $validatedData['price'],
-            'description' => optional($request->description)->getContent(),
+            'description' => $request->description,
             'picture' => $imageName
         ]);
         JastiperProduct::create([

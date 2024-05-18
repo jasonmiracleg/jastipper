@@ -18,7 +18,7 @@ class JastiperProduct extends Model
         return $this->belongsTo(Product::class, 'product_id', 'id');
     }
 
-    public function jastip_product(): HasMany {
+    public function order(): HasMany {
         return $this->hasMany(OrderDetail::class, 'jastiper_product_id', 'id');
     }
 }
