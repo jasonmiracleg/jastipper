@@ -24,22 +24,6 @@
                 </div>
                 <div class="mt-8 flex flex-cols ps-8">
                     <img src="{{ asset('assets/ppCircle.png') }}" alt="Your Image" class="rounded-full w-48 border-2 mr-8">
-                    <div class="absolute ml-[240px] mt-[150px] flex items-end pb-6">
-                        <button type="button"
-                            class="h-[30px] w-[100px] absolute text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img
-                                src="{{ asset('assets/searchIcon.png') }}"
-                                class="absolute w-[30px] ml-[-15px] mt-[-15px]"><a
-                                class="absolute ml-[-10px] mt-[-12px] text-[14px]">Search</a></button>
-                        <button type="button"
-                            class="h-[30px] w-[100px] absolute ml-[110px] text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img
-                                src="{{ asset('assets/filterIcon.png') }}"
-                                class="absolute w-[20px] ml-[-10px] mt-[-10px]"><a
-                                class="absolute ml-[-5px] mt-[-12px] text-[14px]">Filter</a></button>
-                        <button type="button"
-                            class="h-[30px] w-[110px] absolute ml-[220px] text-white bg-[#69A197] drop-shadow-md hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]"><img
-                                src="{{ asset('assets/tag.png') }}" class="absolute w-[20px] ml-[-10px] mt-[-10px]"><a
-                                class="absolute ml-[-15px] mt-[-12px] text-[14px]">Discount</a></button>
-                    </div>
                 </div>
             </div>
             <div class="grid-rows-2 mt-8 pb-8 ml-[10px] mr-[10px]">
