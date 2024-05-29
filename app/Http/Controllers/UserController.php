@@ -29,4 +29,11 @@ class UserController extends Controller
         });
         return view('Customer.jastipper_info', compact('jastip','jastips'));
     }
+
+    public function jastipper_sort(Request $request){
+        $location_name = $request->location;
+        $filtered_jastippers = User::where('location', $location_name)->get();
+
+        return view('Customer.jastipper_filter', compact('filtered_jastippers', 'location_name'));
+    }
 }

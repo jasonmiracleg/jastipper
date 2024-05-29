@@ -18,6 +18,10 @@ Route::get('custCheckout', function () {
     return view('Customer.checkout');
 });
 
+Route::get('incomplete', function(){
+    return view('under_construction');
+})->name('incomplete');
+
 Route::get('custChats', function () {
     return view('Customer.chats');
 });

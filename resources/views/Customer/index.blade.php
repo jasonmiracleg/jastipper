@@ -11,12 +11,17 @@
                 <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
                 <div class="relative">
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                        <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                        <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                         </svg>
                     </div>
-                    <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#69A197] focus:border-[#69A197]" placeholder="Search" required />
-                    <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:outline-none focus:ring-[#69A197] font-medium rounded-lg text-sm px-4 py-2">Search</button>
+                    <input type="search" id="default-search"
+                        class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#69A197] focus:border-[#69A197]"
+                        placeholder="Search" required />
+                    <button type="submit"
+                        class="text-white absolute end-2.5 bottom-2.5 bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:outline-none focus:ring-[#69A197] font-medium rounded-lg text-sm px-4 py-2">Search</button>
                 </div>
             </form>
         </div>
@@ -26,46 +31,66 @@
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                    <img src="{{ asset('assets/discount1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount1.png') }}"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/discount2.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount2.png') }}"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/discount3.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount3.png') }}"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 4 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/discount1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount1.png') }}"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 5 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/discount2.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('assets/discount2.png') }}"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
             </div>
             <!-- Slider indicators -->
             <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
             </div>
             <!-- Slider controls -->
-            <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
                     </svg>
                     <span class="sr-only">Previous</span>
                 </span>
             </button>
-            <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
                     </svg>
                     <span class="sr-only">Next</span>
                 </span>
@@ -78,24 +103,30 @@
             <hr class="border-black flex-grow">
         </div>
         <div class="flex flex-row mt-2 justify-between w-full">
-            <img src="{{ asset('assets/UK.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('assets/USA.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('assets/Canada.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('assets/China.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('assets/Korea.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('assets/Japan.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('assets/Thailand.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('assets/Australia.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
-            <img src="{{ asset('assets/Indonesia.png') }}"
-                alt="Your Image" class="rounded-full h-20 w-20 border-2">
+
+            @php
+            // creates an array based on the assets/countries folder
+            $countryImages = scandir('assets/countries');
+            $countryImages = array_filter($countryImages, function ($item) {
+                return !in_array($item, ['.', '..']);
+            });
+
+            $countryData = [];
+            foreach ($countryImages as $image) {
+                $imagePath = 'assets/countries/' . $image;
+                $countryName = str_replace('.png', '', $image); // Extract name (assuming PNG format)
+                // Or, improve name extraction based on your filename format
+                $countryData[] = [
+                    'asset_path' => $imagePath,
+                    'country_name' => $countryName,
+                ];
+            }
+            @endphp
+
+            @foreach ($countryData as $country)
+                <x-country_button :asset-path="$country['asset_path']" :country-name="$country['country_name']" />
+            @endforeach
+
         </div>
     </div>
     <br>
@@ -122,8 +153,7 @@
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}"
-                                    alt="">
+                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">City of Origin</p>
@@ -132,8 +162,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Location</p>
@@ -142,8 +171,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Type of Jastip</p>
@@ -157,8 +185,8 @@
                     <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
                         <div class="flex items-center justify-between mb-4">
                             <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/ProfilePicAccount.png') }}"
-                                    alt="">
+                                <img class="w-12 h-12 rounded-full border-2"
+                                    src="{{ asset('assets/ProfilePicAccount.png') }}" alt="">
                             </div>
                             <div class="flex-1 min-w-0 ms-4">
                                 <p class="text-2xl font-medium">
@@ -169,8 +197,7 @@
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}"
-                                    alt="">
+                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">City of Origin</p>
@@ -179,8 +206,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Location</p>
@@ -189,8 +215,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Type of Jastip</p>
@@ -216,8 +241,7 @@
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}"
-                                    alt="">
+                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">City of Origin</p>
@@ -226,8 +250,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Location</p>
@@ -236,8 +259,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Type of Jastip</p>
@@ -271,8 +293,7 @@
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}"
-                                    alt="">
+                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">City of Origin</p>
@@ -281,8 +302,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Location</p>
@@ -291,8 +311,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Type of Jastip</p>
@@ -318,8 +337,7 @@
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}"
-                                    alt="">
+                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">City of Origin</p>
@@ -328,8 +346,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Location</p>
@@ -338,8 +355,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Type of Jastip</p>
@@ -365,8 +381,7 @@
                         <div class="flow-root space-y-4">
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}"
-                                    alt="">
+                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">City of Origin</p>
@@ -375,8 +390,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Location</p>
@@ -385,8 +399,7 @@
                             </div>
                             <div class="flex items-center">
                                 <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}"
-                                    alt="">
+                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
                                 </div>
                                 <div>
                                     <p class="font-medium text-xl">Type of Jastip</p>
