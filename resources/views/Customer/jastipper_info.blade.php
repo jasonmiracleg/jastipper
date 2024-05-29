@@ -19,7 +19,7 @@
                         <p class="ml-[-5px] text-[18px] font-semibold">{{ $jastip->rank }}/10</p>
                     </div>
                     <div class="absolute flex justify-end right-0 pr-32">
-                        <a href="custChats"><img class="w-[55px] mt-[30px]" src="{{ asset('assets/chatIcon.png') }}"></a>
+                        <a href="https://wa.me/6281332162952"><img class="w-[55px] mt-[30px]" src="{{ asset('assets/chatIcon.png') }}"></a>
                     </div>
                 </div>
                 <div class="mt-8 flex flex-cols ps-8">
