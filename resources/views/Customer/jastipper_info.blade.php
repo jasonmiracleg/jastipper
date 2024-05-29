@@ -19,7 +19,8 @@
                         <p class="ml-[-5px] text-[18px] font-semibold">{{ $jastip->rank }}/10</p>
                     </div>
                     <div class="absolute flex justify-end right-0 pr-32">
-                        <a href="https://wa.me/6281332162952"><img class="w-[55px] mt-[30px]" src="{{ asset('assets/chatIcon.png') }}"></a>
+                        <a href="https://wa.me/6281332162952"><img class="w-[55px] mt-[30px]"
+                                src="{{ asset('assets/chatIcon.png') }}"></a>
                     </div>
                 </div>
                 <div class="mt-8 flex flex-cols ps-8">
@@ -32,19 +33,20 @@
                         <div class="w-1/4 mb-8">
                             <form action="{{ route('customer.cart') }}" method="POST">
                                 @csrf
-                                <input type="hidden" name="productId" value="{{ $product->id }}">
-                                <div class="flex items-center justify-between mb-4">
-                                    <img src="{{ asset('assets/image/'. $product->picture) }}" alt=""
-                                        class="h-[250px] w-[230px] object-cover rounded-2xl mr-8">
-                                    <button type="submit" class="absolute ml-[185px] mt-[210px]">
-                                        <img src="{{ asset('assets/addToCart.png') }}" class="w-[30px]">
-                                    </button>
-                                </div>
+                                <button type="submit">
+                                    <input type="hidden" name="productId" value="{{ $product->id }}">
+                                    <img src="{{ asset('assets/addToCart.png') }}" class="w-[30px] absolute ml-4 mt-4">
+                                    <div class="flex items-center justify-between mb-4">
+                                        <img src="{{ asset('assets/image/' . $product->picture) }}" alt=""
+                                            class="h-[250px] w-[230px] object-cover rounded-2xl mr-8">
+                                    </div>
+                                </button>
                                 <div class="flow-root space-y-4">
                                     <div class="flex items-center">
                                         <div class="space-y-2">
                                             <p class="font-medium text-2xl">{{ $product->product_name }}</p>
-                                            <p class="text-xl">Rp {{ number_format($product->price, 0, ',', '.') }},-</p>
+                                            <p class="text-xl">Rp {{ number_format($product->price, 0, ',', '.') }},-
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

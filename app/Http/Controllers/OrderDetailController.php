@@ -66,6 +66,14 @@ class OrderDetailController extends Controller
 
     public function checkout(Request $request)
     {
+        $action = $request->input('action');
+
+        if (strpos($action, 'delete') === 0) {
+            $orderDetailID = substr($action, strlen('delete-'));
+            $orderDetail = OrderDetail::where('id', $orderDetailID);
+            $orderDetail->delete();
+            return $this->cart();
+        }
 
         // Validate the request if needed
         $validated = $request->validate([

@@ -47,6 +47,7 @@
                                                         {{ $product->product->price }}</p>
                                                 </div>
                                             </div>
+                                            <button type="submit" name="action" value="delete-{{ $orderDetails[$index]->id }}" class="mt-8 inline-block px-4 py-2 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg">Delete</button>
                                             <!-- Hidden inputs to store product data -->
                                             <input type="hidden" name="products[{{ $index }}][id]"
                                                 value="{{ $product->product->id }}">
