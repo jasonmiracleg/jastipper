@@ -7,19 +7,20 @@
                 <a href="jastiperInfo"><img src="{{ asset('assets/back.png') }}" class="absolute mt-[10px] w-[20px]"></a>
                 <h1 class="ml-[30px] text-3xl font-semibold">Items</h1>
             </div>
-            @if ($products)
+            @if (!$products->isEmpty())
                 <form id="checkoutForm" method="POST" action="{{ route('checkout') }}">
                     @csrf
                     @foreach ($products as $index => $product)
                         <div class="product w-full flex flex-col justify-between" id="product-{{ $index }}">
                             <div class="">
                                 <div class="mb-8 flex flex-row w-auto">
-                                    <img src="{{ asset('assets/image/'. $product->product->picture) }}" alt=""
+                                    <img src="{{ asset('assets/image/' . $product->product->picture) }}" alt=""
                                         class="h-[250px] w-[230px] object-cover rounded-2xl mr-8">
                                     <div class="h-auto w-full">
                                         <div class="space-y-2">
                                             <p class="font-semibold text-2xl">{{ $product->product->product_name }}</p>
-                                            <p class="text-xl">Rp {{ number_format($product->product->price, 0, ',', '.') }}</p>
+                                            <p class="text-xl">Rp {{ number_format($product->product->price, 0, ',', '.') }}
+                                            </p>
                                             <p>{{ $product->product->description }}</p>
                                         </div>
                                         <div class="mt-12">
@@ -47,7 +48,9 @@
                                                         {{ $product->product->price }}</p>
                                                 </div>
                                             </div>
-                                            <button type="submit" name="action" value="delete-{{ $orderDetails[$index]->id }}" class="mt-8 inline-block px-4 py-2 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg">Delete</button>
+                                            <button type="submit" name="action"
+                                                value="delete-{{ $orderDetails[$index]->id }}"
+                                                class="mt-8 inline-block px-4 py-2 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg">Delete</button>
                                             <!-- Hidden inputs to store product data -->
                                             <input type="hidden" name="products[{{ $index }}][id]"
                                                 value="{{ $product->product->id }}">
@@ -77,20 +80,30 @@
                         </div>
                         <div class="flex flex-rows justify-between mb-4">
                             <p class="text-2xl">Shipping Cost</p>
-                            <p class="text-2xl">Rp 15.000</p>
+                            @if ($products->isEmpty())
+                                <p class="text-2xl">Rp 0</p>
+                            @else
+                                <p class="text-2xl">Rp 15.000</p>
+                            @endif
                         </div>
                         <hr class="border-black mb-4">
                         <div class="flex flex-rows justify-between mb-4">
                             <p class="text-2xl font-bold">Total Cost</p>
                             <p id="totalCost" class="text-2xl font-bold">Rp 0</p>
                         </div>
-                        <button type="submit"
-                            class="absolute ml-[1090px] mt-[10px] text-white bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 me-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]">
-                            <span class="text-[20px]">Checkout</span>
-                        </button>
+                        <div class="w-full flex justify-end">
+                            <button type="submit"
+                                class="text-white bg-[#69A197] hover:bg-[#69A197] focus:ring-4 focus:ring-[#69A197] font-medium rounded-lg text-sm px-5 py-2 mb-2 dark:bg-[#69A197] dark:hover:bg-[#69A197] focus:outline-none dark:focus:ring-[#69A197]">
+                                <span class="text-[20px]">Checkout</span>
+                            </button>
+                        </div>
                         <br>
                     </div>
                 </form>
+            @else
+            <div class="w-full flex justify-center">
+                <h1 class="ml-[30px] text-xl">Cart is Empty</h1>
+            </div>
             @endif
         </div>
     </div>
@@ -113,7 +126,7 @@
                 function updateTotalPrice() {
                     const totalPrice = quantity * pricePerUnit;
                     totalPriceDisplay.textContent = "Rp " + totalPrice.toLocaleString(
-                    'id-ID'); // Specify 'id-ID' for Indonesian formatting
+                        'id-ID'); // Specify 'id-ID' for Indonesian formatting
 
                     // Update hidden fields
                     hiddenQuantity.value = quantity;
