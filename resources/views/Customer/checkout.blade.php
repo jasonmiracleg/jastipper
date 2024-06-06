@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <img src="{{ asset('assets/underConstruction.png') }}">
+    <div class="w-full flex justify-center">
+        <img src="{{ asset('assets/underConstruction.png') }}">
+    </div>
 @endsection

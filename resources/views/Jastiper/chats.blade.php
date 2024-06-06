@@ -1,8 +1,8 @@
 @extends('layouts.jastipperView')
 
 @section('content')
-    <div class="p-4 mx-auto">
-        <div class="w-full h-[300px] pb-8 bg-yellow-100">
+    <div class="mx-auto bg-yellow-100">
+        <div class="w-full h-[300px] pb-8">
             <div class="mt-[70px] absolute w-full h-max pb-8 bg-slate-50 rounded-tl-[100px] rounded-tr-[100px] shadow-xl">
                 <h1 class="pl-[75px] text-2xl font-semibold mt-[50px]">Chats</h1>
                 <hr class="border-black flex-grow ml-[50px] mr-[50px] mt-[20px]">
