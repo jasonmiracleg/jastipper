@@ -11,7 +11,7 @@ class Order extends Model
 {
     use HasFactory;
     protected $guarded = ['id'];
-    public function ordered(): HasMany {
+    public function orderDetails(): HasMany {
         return $this -> hasMany(OrderDetail::class, 'order_id', 'id');
     }
 
