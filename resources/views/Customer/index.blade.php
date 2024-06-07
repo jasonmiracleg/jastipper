@@ -102,7 +102,7 @@
             <h1 class="text-3xl font-semibold mr-4">Countries</h1>
             <hr class="border-black flex-grow">
         </div>
-        <div class="flex flex-row mt-2 justify-between w-full">
+        <div class="flex flex-row mt-2 justify-between w-full overflow-x-auto gap-4">
 
             @php
             // creates an array based on the assets/countries folder
@@ -136,139 +136,10 @@
                 <h1 class="text-3xl font-semibold mr-4">Based on Desired Location</h1>
                 <hr class="border-black flex-grow mr-[40px]">
             </div>
-            <div class="mt-8 flex flex-cols justify-between ml-[40px] mr-[40px]">
-                <a href="{{ route('jastiper.info') }}">
-                    <div class="w-[350px] max-w-sm p-4 bg-white rounded-lg shadow sm:p-8">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/PP1.png') }}"
-                                    alt="">
-                            </div>
-                            <div class="flex-1 min-w-0 ms-4">
-                                <p class="text-2xl font-medium">
-                                    Robert Hans
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flow-root space-y-4">
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">City of Origin</p>
-                                    <p>Surabaya</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Location</p>
-                                    <p>France</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Type of Jastip</p>
-                                    <p>Cloths</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="{{ route('jastiper.info') }}">
-                    <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2"
-                                    src="{{ asset('assets/ProfilePicAccount.png') }}" alt="">
-                            </div>
-                            <div class="flex-1 min-w-0 ms-4">
-                                <p class="text-2xl font-medium">
-                                    Julie
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flow-root space-y-4">
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">City of Origin</p>
-                                    <p>Jakarta</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Location</p>
-                                    <p>South Korea</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Type of Jastip</p>
-                                    <p>MakeUp</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="{{ route('jastiper.info') }}">
-                    <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/PP2.png') }}"
-                                    alt="">
-                            </div>
-                            <div class="flex-1 min-w-0 ms-4">
-                                <p class="text-2xl font-medium">
-                                    Tom Holand
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flow-root space-y-4">
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">City of Origin</p>
-                                    <p>Jakarta Barat</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Location</p>
-                                    <p>Thailand</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Type of Jastip</p>
-                                    <p>Food</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+            <div class="w-full overflow-y-auto px-4 py-8 flex flex-wrap justify-between gap-4">
+                <x-home_jastiper_info :name="'Robert Hans'" :origin="'Surabaya'" :location="'France'" :type="'Clothes'" :asset-path="'assets/PP1.png'" />
+                <x-home_jastiper_info :name="'Julie'" :origin="'Jakarta'" :location="'South Korea'" :type="'MakeUp'" :asset-path="'assets/ProfilePicAccount.png'" />
+                <x-home_jastiper_info :name="'Tom Holand'" :origin="'Jakarta Barat'" :location="'Thailand'" :type="'Food'" :asset-path="'assets/PP2.png'" />
             </div>
         </div>
         <div class="mx-auto p-4">
@@ -276,139 +147,10 @@
                 <h1 class="text-3xl font-semibold mr-4 ml-[50px]">Popular</h1>
                 <hr class="border-black flex-grow  mr-[40px]">
             </div>
-            <div class="mt-8 flex flex-cols justify-between ml-[40px] mr-[40px]">
-                <a href="{{ route('jastiper.info') }}">
-                    <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/Janice.png') }}"
-                                    alt="">
-                            </div>
-                            <div class="flex-1 min-w-0 ms-4">
-                                <p class="text-2xl font-medium">
-                                    Janice
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flow-root space-y-4">
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">City of Origin</p>
-                                    <p>Solo</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Location</p>
-                                    <p>Japan</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Type of Jastip</p>
-                                    <p>Any</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="{{ route('jastiper.info') }}">
-                    <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/Betty.png') }}"
-                                    alt="">
-                            </div>
-                            <div class="flex-1 min-w-0 ms-4">
-                                <p class="text-2xl font-medium">
-                                    Betty
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flow-root space-y-4">
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">City of Origin</p>
-                                    <p>Bali</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Location</p>
-                                    <p>Macau</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Type of Jastip</p>
-                                    <p>Any</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="{{ route('jastiper.info') }}">
-                    <div class="w-[350px] max-w-sm p-4 bg-white border rounded-lg shadow sm:p-8">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="flex-shrink-0">
-                                <img class="w-12 h-12 rounded-full border-2" src="{{ asset('assets/Carles.png') }}"
-                                    alt="">
-                            </div>
-                            <div class="flex-1 min-w-0 ms-4">
-                                <p class="text-2xl font-medium">
-                                    Carles
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flow-root space-y-4">
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-7 ml-[5px]" src="{{ asset('assets/map.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">City of Origin</p>
-                                    <p>Bandung</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/globe.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Location</p>
-                                    <p>Hawaii</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="mr-6">
-                                    <img class="h-6 ml-[7px]" src="{{ asset('assets/cube.png') }}" alt="">
-                                </div>
-                                <div>
-                                    <p class="font-medium text-xl">Type of Jastip</p>
-                                    <p>Any</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+            <div class="w-full overflow-y-auto px-4 py-8 flex flex-wrap justify-between gap-4">
+                <x-home_jastiper_info :name="'Janice'" :origin="'Solo'" :location="'Japan'" :type="'Any'" :asset-path="'assets/Janice.png'" />
+                <x-home_jastiper_info :name="'Betty'" :origin="'Bali'" :location="'Macau'" :type="'Any'" :asset-path="'assets/Betty.png'" />
+                <x-home_jastiper_info :name="'Carles'" :origin="'Bandung'" :location="'Hawaii'" :type="'Any'" :asset-path="'assets/Carles.png'" />
             </div>
         </div>
     </div>
